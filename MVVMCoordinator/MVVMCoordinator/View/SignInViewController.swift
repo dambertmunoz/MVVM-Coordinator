@@ -42,9 +42,9 @@ class SignInViewController: UIViewController {
             }
             .disposed(by: self.disposeBag)
         
-        viewModel.isSignInActive
-            .bind(to: self.signInButton.rx.isEnabled)
-            .disposed(by: self.disposeBag)
+//        viewModel.isSignInActive
+//            .bind(to: self.signInButton.rx.isEnabled)
+//            .disposed(by: self.disposeBag)
         
         viewModel.didFailSignIn
             .subscribe(onNext: { error in
@@ -54,7 +54,20 @@ class SignInViewController: UIViewController {
         
         viewModel.didSignIn
             .subscribe(onNext: { error in
-                self.performSegue(withIdentifier: Constants.Segue.SignIn_Home, sender: nil)
+                // self.performSegue(withIdentifier: Constants.Segue.SignIn_Home, sender: nil)
+                do {
+                    try BooksService().getAll { result in
+                        switch result {
+                        case .success(let books):
+                            print(books.data)
+                        case .failure(let error):
+                            print(error.localizedDescription)
+                        }
+                    }
+                } catch {
+                    
+                }
+               
             })
             .disposed(by: self.disposeBag)
         

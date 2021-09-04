@@ -72,7 +72,7 @@
                         <viewLayoutGuide key="safeArea" id="63W-Yd-uSu"/>
                         <color key="backgroundColor" systemColor="systemBackgroundColor"/>
                     </view>
-                    <tabBarItem key="tabBarItem" title="History" id="WzV-Ol-jzX"/>
+                    <tabBarItem key="tabBarItem" title="History" image="books.vertical.fill" catalog="system" id="WzV-Ol-jzX"/>
                 </viewController>
                 <placeholder placeholderIdentifier="IBFirstResponder" id="MQd-mf-JLf" userLabel="First Responder" customClass="UIResponder" sceneMemberID="firstResponder"/>
             </objects>
@@ -88,7 +88,7 @@
                         <viewLayoutGuide key="safeArea" id="Pcy-jy-vtD"/>
                         <color key="backgroundColor" systemColor="systemBackgroundColor"/>
                     </view>
-                    <tabBarItem key="tabBarItem" title="Science" id="4HB-D1-XjX"/>
+                    <tabBarItem key="tabBarItem" title="Science" image="book.fill" catalog="system" id="4HB-D1-XjX"/>
                 </viewController>
                 <placeholder placeholderIdentifier="IBFirstResponder" id="fAw-uV-Wch" userLabel="First Responder" customClass="UIResponder" sceneMemberID="firstResponder"/>
             </objects>
@@ -104,7 +104,7 @@
                         <viewLayoutGuide key="safeArea" id="npM-7O-U1N"/>
                         <color key="backgroundColor" systemColor="systemBackgroundColor"/>
                     </view>
-                    <tabBarItem key="tabBarItem" title="Business" id="k6Q-qo-CkF"/>
+                    <tabBarItem key="tabBarItem" title="Business" image="book.closed.fill" catalog="system" id="k6Q-qo-CkF"/>
                 </viewController>
                 <placeholder placeholderIdentifier="IBFirstResponder" id="94p-VS-bzS" userLabel="First Responder" customClass="UIResponder" sceneMemberID="firstResponder"/>
             </objects>
@@ -129,7 +129,7 @@
                         <viewLayoutGuide key="safeArea" id="bRV-p1-l4I"/>
                         <color key="backgroundColor" systemColor="systemBackgroundColor"/>
                     </view>
-                    <tabBarItem key="tabBarItem" title="BestSellers" id="JD0-1V-AOo"/>
+                    <tabBarItem key="tabBarItem" title="BestSellers" image="star.fill" catalog="system" id="JD0-1V-AOo"/>
                 </viewController>
                 <placeholder placeholderIdentifier="IBFirstResponder" id="xaQ-hc-2fa" userLabel="First Responder" customClass="UIResponder" sceneMemberID="firstResponder"/>
             </objects>
@@ -158,6 +158,10 @@
         </scene>
     </scenes>
     <resources>
+        <image name="book.closed.fill" catalog="system" width="115" height="128"/>
+        <image name="book.fill" catalog="system" width="128" height="102"/>
+        <image name="books.vertical.fill" catalog="system" width="128" height="100"/>
+        <image name="star.fill" catalog="system" width="128" height="116"/>
         <systemColor name="systemBackgroundColor">
             <color white="1" alpha="1" colorSpace="custom" customColorSpace="genericGamma22GrayColorSpace"/>
         </systemColor>
