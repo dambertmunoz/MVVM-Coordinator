@@ -1,2 +1,1 @@
-# MVVM-Coordinator
-MVVM+Coordinator 
+# MVVM
