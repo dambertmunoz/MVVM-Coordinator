@@ -4,7 +4,6 @@
 //
 //  Created by Dambert M. on 4/09/21.
 
-
 import Realm
 import RealmSwift
 
@@ -16,7 +15,7 @@ import RealmSwift
         dynamic var genre: String?
         dynamic var img: String?
         dynamic var imported: Bool?
-    
+
     enum CodingKeys: String, CodingKey {
         case isbn
         case title
@@ -27,8 +26,7 @@ import RealmSwift
         case imported
     }
     public override init() {
-        
+
     }
-    
-    
+
 }
