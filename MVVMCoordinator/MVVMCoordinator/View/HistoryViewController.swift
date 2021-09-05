@@ -9,15 +9,11 @@ import UIKit
 import RxCocoa
 import RxSwift
 
-class HistoryViewController: UIViewController {
-    
-    
-    private let disposeBag = DisposeBag()
-   // var viewModel: SignInViewModel? = SignInViewModel(authentication: SessionService())
+class HistoryViewController: BaseViewController {
     
     override func viewDidLoad() {
         super.viewDidLoad()
-       // self.setUpBindings()
+        self.setupData(.history)
     }
 
 }

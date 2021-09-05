@@ -19,25 +19,43 @@
 		909572F126E1D09D00FE1BC4 /* RxCocoa in Frameworks */ = {isa = PBXBuildFile; productRef = 909572F026E1D09D00FE1BC4 /* RxCocoa */; };
 		909572FA26E1DAB700FE1BC4 /* RxSwift in Frameworks */ = {isa = PBXBuildFile; productRef = 909572F926E1DAB700FE1BC4 /* RxSwift */; };
 		9095733126E1E18000FE1BC4 /* MVVMUtils in Frameworks */ = {isa = PBXBuildFile; productRef = 9095733026E1E18000FE1BC4 /* MVVMUtils */; };
-		9095734126E32CBE00FE1BC4 /* NotoSans-Regular.ttf in Resources */ = {isa = PBXBuildFile; fileRef = 9095733926E32CBE00FE1BC4 /* NotoSans-Regular.ttf */; };
-		9095734226E32CBE00FE1BC4 /* NotoSansMono-SemiBold.ttf in Resources */ = {isa = PBXBuildFile; fileRef = 9095733A26E32CBE00FE1BC4 /* NotoSansMono-SemiBold.ttf */; };
-		9095734326E32CBE00FE1BC4 /* NotoSans-Medium.ttf in Resources */ = {isa = PBXBuildFile; fileRef = 9095733B26E32CBE00FE1BC4 /* NotoSans-Medium.ttf */; };
-		9095734426E32CBE00FE1BC4 /* NotoSansMono-Regular.ttf in Resources */ = {isa = PBXBuildFile; fileRef = 9095733C26E32CBE00FE1BC4 /* NotoSansMono-Regular.ttf */; };
-		9095734526E32CBE00FE1BC4 /* NotoSans-Bold.ttf in Resources */ = {isa = PBXBuildFile; fileRef = 9095733D26E32CBE00FE1BC4 /* NotoSans-Bold.ttf */; };
-		9095734626E32CBE00FE1BC4 /* NotoSansMono-Medium.ttf in Resources */ = {isa = PBXBuildFile; fileRef = 9095733E26E32CBE00FE1BC4 /* NotoSansMono-Medium.ttf */; };
-		9095734726E32CBE00FE1BC4 /* NotoSans-SemiBold.ttf in Resources */ = {isa = PBXBuildFile; fileRef = 9095733F26E32CBE00FE1BC4 /* NotoSans-SemiBold.ttf */; };
-		9095734826E32CBE00FE1BC4 /* NotoSansMono-Bold.ttf in Resources */ = {isa = PBXBuildFile; fileRef = 9095734026E32CBE00FE1BC4 /* NotoSansMono-Bold.ttf */; };
 		9095734A26E32D0900FE1BC4 /* SessionService.swift in Sources */ = {isa = PBXBuildFile; fileRef = 9095734926E32D0900FE1BC4 /* SessionService.swift */; };
-		9095734C26E3337600FE1BC4 /* BestSellersService.swift in Sources */ = {isa = PBXBuildFile; fileRef = 9095734B26E3337500FE1BC4 /* BestSellersService.swift */; };
 		9095734E26E3339700FE1BC4 /* BooksService.swift in Sources */ = {isa = PBXBuildFile; fileRef = 9095734D26E3339700FE1BC4 /* BooksService.swift */; };
 		9095735026E333F500FE1BC4 /* BestSellersViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 9095734F26E333F500FE1BC4 /* BestSellersViewController.swift */; };
 		9095735226E3343F00FE1BC4 /* HistoryViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 9095735126E3343F00FE1BC4 /* HistoryViewController.swift */; };
 		9095735426E3344D00FE1BC4 /* ScienceViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 9095735326E3344D00FE1BC4 /* ScienceViewController.swift */; };
 		9095735626E3345900FE1BC4 /* BusinessViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 9095735526E3345900FE1BC4 /* BusinessViewController.swift */; };
-		9095735826E3357E00FE1BC4 /* BestSellersViewModel.swift in Sources */ = {isa = PBXBuildFile; fileRef = 9095735726E3357E00FE1BC4 /* BestSellersViewModel.swift */; };
-		9095735A26E3358A00FE1BC4 /* HistoryViewModel.swift in Sources */ = {isa = PBXBuildFile; fileRef = 9095735926E3358A00FE1BC4 /* HistoryViewModel.swift */; };
-		9095735C26E3359600FE1BC4 /* ScienceViewModel.swift in Sources */ = {isa = PBXBuildFile; fileRef = 9095735B26E3359600FE1BC4 /* ScienceViewModel.swift */; };
-		9095735E26E335AC00FE1BC4 /* BusinessViewModel.swift in Sources */ = {isa = PBXBuildFile; fileRef = 9095735D26E335AC00FE1BC4 /* BusinessViewModel.swift */; };
+		9095735826E3357E00FE1BC4 /* BooksViewModel.swift in Sources */ = {isa = PBXBuildFile; fileRef = 9095735726E3357E00FE1BC4 /* BooksViewModel.swift */; };
+		9095737226E3F13A00FE1BC4 /* BaseViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 9095737126E3F13A00FE1BC4 /* BaseViewController.swift */; };
+		9095737526E3F2B100FE1BC4 /* Book.swift in Sources */ = {isa = PBXBuildFile; fileRef = 9095737426E3F2B100FE1BC4 /* Book.swift */; };
+		9095737826E3F60800FE1BC4 /* Realm in Frameworks */ = {isa = PBXBuildFile; productRef = 9095737726E3F60800FE1BC4 /* Realm */; };
+		9095737A26E3F60800FE1BC4 /* RealmSwift in Frameworks */ = {isa = PBXBuildFile; productRef = 9095737926E3F60800FE1BC4 /* RealmSwift */; };
+		9095737D26E4034B00FE1BC4 /* BaseProtocol.swift in Sources */ = {isa = PBXBuildFile; fileRef = 9095737C26E4034B00FE1BC4 /* BaseProtocol.swift */; };
+		9095738026E4068000FE1BC4 /* Books.swift in Sources */ = {isa = PBXBuildFile; fileRef = 9095737F26E4068000FE1BC4 /* Books.swift */; };
+		9095738226E40A4500FE1BC4 /* BooksRepository.swift in Sources */ = {isa = PBXBuildFile; fileRef = 9095738126E40A4500FE1BC4 /* BooksRepository.swift */; };
+		9095738626E41F3B00FE1BC4 /* BooksRemoteDataSource.swift in Sources */ = {isa = PBXBuildFile; fileRef = 9095738526E41F3B00FE1BC4 /* BooksRemoteDataSource.swift */; };
+		9095738826E41F4D00FE1BC4 /* BooksLocalDataSource.swift in Sources */ = {isa = PBXBuildFile; fileRef = 9095738726E41F4D00FE1BC4 /* BooksLocalDataSource.swift */; };
+		9095738D26E47F0000FE1BC4 /* BookTableViewCell.xib in Resources */ = {isa = PBXBuildFile; fileRef = 9095738C26E47F0000FE1BC4 /* BookTableViewCell.xib */; };
+		9095738F26E47F6000FE1BC4 /* BookTableViewCell.swift in Sources */ = {isa = PBXBuildFile; fileRef = 9095738E26E47F6000FE1BC4 /* BookTableViewCell.swift */; };
+		9095739226E48A9C00FE1BC4 /* Kingfisher in Frameworks */ = {isa = PBXBuildFile; productRef = 9095739126E48A9C00FE1BC4 /* Kingfisher */; };
+		9095739326E48F9800FE1BC4 /* Omnes-Black.otf in Resources */ = {isa = PBXBuildFile; fileRef = 9095736026E3F07700FE1BC4 /* Omnes-Black.otf */; };
+		9095739426E48F9800FE1BC4 /* Omnes-BlackItalic.otf in Resources */ = {isa = PBXBuildFile; fileRef = 9095736A26E3F07900FE1BC4 /* Omnes-BlackItalic.otf */; };
+		9095739526E48F9800FE1BC4 /* Omnes-Bold.otf in Resources */ = {isa = PBXBuildFile; fileRef = 9095736D26E3F07900FE1BC4 /* Omnes-Bold.otf */; };
+		9095739626E48F9800FE1BC4 /* Omnes-BoldItalic.otf in Resources */ = {isa = PBXBuildFile; fileRef = 9095736626E3F07800FE1BC4 /* Omnes-BoldItalic.otf */; };
+		9095739726E48F9800FE1BC4 /* Omnes-ExtraLight.otf in Resources */ = {isa = PBXBuildFile; fileRef = 9095736E26E3F07900FE1BC4 /* Omnes-ExtraLight.otf */; };
+		9095739826E48F9800FE1BC4 /* Omnes-ExtraLightItalic.otf in Resources */ = {isa = PBXBuildFile; fileRef = 9095735F26E3F07700FE1BC4 /* Omnes-ExtraLightItalic.otf */; };
+		9095739926E48F9800FE1BC4 /* Omnes-Hairline.otf in Resources */ = {isa = PBXBuildFile; fileRef = 9095736B26E3F07900FE1BC4 /* Omnes-Hairline.otf */; };
+		9095739A26E48F9800FE1BC4 /* Omnes-HairlineItalic.otf in Resources */ = {isa = PBXBuildFile; fileRef = 9095736126E3F07800FE1BC4 /* Omnes-HairlineItalic.otf */; };
+		9095739B26E48F9800FE1BC4 /* Omnes-Light.otf in Resources */ = {isa = PBXBuildFile; fileRef = 9095736326E3F07800FE1BC4 /* Omnes-Light.otf */; };
+		9095739C26E48F9800FE1BC4 /* Omnes-LightItalic.otf in Resources */ = {isa = PBXBuildFile; fileRef = 9095736226E3F07800FE1BC4 /* Omnes-LightItalic.otf */; };
+		9095739D26E48F9800FE1BC4 /* Omnes-Medium.otf in Resources */ = {isa = PBXBuildFile; fileRef = 9095736426E3F07800FE1BC4 /* Omnes-Medium.otf */; };
+		9095739E26E48F9800FE1BC4 /* Omnes-MediumItalic.otf in Resources */ = {isa = PBXBuildFile; fileRef = 9095736C26E3F07900FE1BC4 /* Omnes-MediumItalic.otf */; };
+		9095739F26E48F9800FE1BC4 /* Omnes-Regular.otf in Resources */ = {isa = PBXBuildFile; fileRef = 9095736F26E3F07900FE1BC4 /* Omnes-Regular.otf */; };
+		909573A026E48F9800FE1BC4 /* Omnes-RegularItalic.otf in Resources */ = {isa = PBXBuildFile; fileRef = 9095736526E3F07800FE1BC4 /* Omnes-RegularItalic.otf */; };
+		909573A126E48F9800FE1BC4 /* Omnes-Semibold.otf in Resources */ = {isa = PBXBuildFile; fileRef = 9095737026E3F07A00FE1BC4 /* Omnes-Semibold.otf */; };
+		909573A226E48F9800FE1BC4 /* Omnes-SemiboldItalic.otf in Resources */ = {isa = PBXBuildFile; fileRef = 9095736726E3F07800FE1BC4 /* Omnes-SemiboldItalic.otf */; };
+		909573A326E48F9800FE1BC4 /* Omnes-Thin.otf in Resources */ = {isa = PBXBuildFile; fileRef = 9095736826E3F07800FE1BC4 /* Omnes-Thin.otf */; };
+		909573A426E48F9800FE1BC4 /* Omnes-ThinItalic.otf in Resources */ = {isa = PBXBuildFile; fileRef = 9095736926E3F07800FE1BC4 /* Omnes-ThinItalic.otf */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXContainerItemProxy section */
@@ -89,25 +107,40 @@
 		9095731C26E1DB3D00FE1BC4 /* xcschememanagement.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = xcschememanagement.plist; sourceTree = "<group>"; };
 		9095732F26E1E15800FE1BC4 /* MVVMUtils */ = {isa = PBXFileReference; lastKnownFileType = folder; name = MVVMUtils; path = ../Sources/MVVMUtils; sourceTree = "<group>"; };
 		9095733226E1E3C300FE1BC4 /* ARKit.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = ARKit.framework; path = System/Library/Frameworks/ARKit.framework; sourceTree = SDKROOT; };
-		9095733926E32CBE00FE1BC4 /* NotoSans-Regular.ttf */ = {isa = PBXFileReference; lastKnownFileType = file; path = "NotoSans-Regular.ttf"; sourceTree = "<group>"; };
-		9095733A26E32CBE00FE1BC4 /* NotoSansMono-SemiBold.ttf */ = {isa = PBXFileReference; lastKnownFileType = file; path = "NotoSansMono-SemiBold.ttf"; sourceTree = "<group>"; };
-		9095733B26E32CBE00FE1BC4 /* NotoSans-Medium.ttf */ = {isa = PBXFileReference; lastKnownFileType = file; path = "NotoSans-Medium.ttf"; sourceTree = "<group>"; };
-		9095733C26E32CBE00FE1BC4 /* NotoSansMono-Regular.ttf */ = {isa = PBXFileReference; lastKnownFileType = file; path = "NotoSansMono-Regular.ttf"; sourceTree = "<group>"; };
-		9095733D26E32CBE00FE1BC4 /* NotoSans-Bold.ttf */ = {isa = PBXFileReference; lastKnownFileType = file; path = "NotoSans-Bold.ttf"; sourceTree = "<group>"; };
-		9095733E26E32CBE00FE1BC4 /* NotoSansMono-Medium.ttf */ = {isa = PBXFileReference; lastKnownFileType = file; path = "NotoSansMono-Medium.ttf"; sourceTree = "<group>"; };
-		9095733F26E32CBE00FE1BC4 /* NotoSans-SemiBold.ttf */ = {isa = PBXFileReference; lastKnownFileType = file; path = "NotoSans-SemiBold.ttf"; sourceTree = "<group>"; };
-		9095734026E32CBE00FE1BC4 /* NotoSansMono-Bold.ttf */ = {isa = PBXFileReference; lastKnownFileType = file; path = "NotoSansMono-Bold.ttf"; sourceTree = "<group>"; };
 		9095734926E32D0900FE1BC4 /* SessionService.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = SessionService.swift; sourceTree = "<group>"; };
-		9095734B26E3337500FE1BC4 /* BestSellersService.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = BestSellersService.swift; sourceTree = "<group>"; };
 		9095734D26E3339700FE1BC4 /* BooksService.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = BooksService.swift; sourceTree = "<group>"; };
 		9095734F26E333F500FE1BC4 /* BestSellersViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = BestSellersViewController.swift; sourceTree = "<group>"; };
 		9095735126E3343F00FE1BC4 /* HistoryViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = HistoryViewController.swift; sourceTree = "<group>"; };
 		9095735326E3344D00FE1BC4 /* ScienceViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ScienceViewController.swift; sourceTree = "<group>"; };
 		9095735526E3345900FE1BC4 /* BusinessViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = BusinessViewController.swift; sourceTree = "<group>"; };
-		9095735726E3357E00FE1BC4 /* BestSellersViewModel.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = BestSellersViewModel.swift; sourceTree = "<group>"; };
-		9095735926E3358A00FE1BC4 /* HistoryViewModel.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = HistoryViewModel.swift; sourceTree = "<group>"; };
-		9095735B26E3359600FE1BC4 /* ScienceViewModel.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ScienceViewModel.swift; sourceTree = "<group>"; };
-		9095735D26E335AC00FE1BC4 /* BusinessViewModel.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = BusinessViewModel.swift; sourceTree = "<group>"; };
+		9095735726E3357E00FE1BC4 /* BooksViewModel.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = BooksViewModel.swift; sourceTree = "<group>"; };
+		9095735F26E3F07700FE1BC4 /* Omnes-ExtraLightItalic.otf */ = {isa = PBXFileReference; lastKnownFileType = file; path = "Omnes-ExtraLightItalic.otf"; sourceTree = "<group>"; };
+		9095736026E3F07700FE1BC4 /* Omnes-Black.otf */ = {isa = PBXFileReference; lastKnownFileType = file; path = "Omnes-Black.otf"; sourceTree = "<group>"; };
+		9095736126E3F07800FE1BC4 /* Omnes-HairlineItalic.otf */ = {isa = PBXFileReference; lastKnownFileType = file; path = "Omnes-HairlineItalic.otf"; sourceTree = "<group>"; };
+		9095736226E3F07800FE1BC4 /* Omnes-LightItalic.otf */ = {isa = PBXFileReference; lastKnownFileType = file; path = "Omnes-LightItalic.otf"; sourceTree = "<group>"; };
+		9095736326E3F07800FE1BC4 /* Omnes-Light.otf */ = {isa = PBXFileReference; lastKnownFileType = file; path = "Omnes-Light.otf"; sourceTree = "<group>"; };
+		9095736426E3F07800FE1BC4 /* Omnes-Medium.otf */ = {isa = PBXFileReference; lastKnownFileType = file; path = "Omnes-Medium.otf"; sourceTree = "<group>"; };
+		9095736526E3F07800FE1BC4 /* Omnes-RegularItalic.otf */ = {isa = PBXFileReference; lastKnownFileType = file; path = "Omnes-RegularItalic.otf"; sourceTree = "<group>"; };
+		9095736626E3F07800FE1BC4 /* Omnes-BoldItalic.otf */ = {isa = PBXFileReference; lastKnownFileType = file; path = "Omnes-BoldItalic.otf"; sourceTree = "<group>"; };
+		9095736726E3F07800FE1BC4 /* Omnes-SemiboldItalic.otf */ = {isa = PBXFileReference; lastKnownFileType = file; path = "Omnes-SemiboldItalic.otf"; sourceTree = "<group>"; };
+		9095736826E3F07800FE1BC4 /* Omnes-Thin.otf */ = {isa = PBXFileReference; lastKnownFileType = file; path = "Omnes-Thin.otf"; sourceTree = "<group>"; };
+		9095736926E3F07800FE1BC4 /* Omnes-ThinItalic.otf */ = {isa = PBXFileReference; lastKnownFileType = file; path = "Omnes-ThinItalic.otf"; sourceTree = "<group>"; };
+		9095736A26E3F07900FE1BC4 /* Omnes-BlackItalic.otf */ = {isa = PBXFileReference; lastKnownFileType = file; path = "Omnes-BlackItalic.otf"; sourceTree = "<group>"; };
+		9095736B26E3F07900FE1BC4 /* Omnes-Hairline.otf */ = {isa = PBXFileReference; lastKnownFileType = file; path = "Omnes-Hairline.otf"; sourceTree = "<group>"; };
+		9095736C26E3F07900FE1BC4 /* Omnes-MediumItalic.otf */ = {isa = PBXFileReference; lastKnownFileType = file; path = "Omnes-MediumItalic.otf"; sourceTree = "<group>"; };
+		9095736D26E3F07900FE1BC4 /* Omnes-Bold.otf */ = {isa = PBXFileReference; lastKnownFileType = file; path = "Omnes-Bold.otf"; sourceTree = "<group>"; };
+		9095736E26E3F07900FE1BC4 /* Omnes-ExtraLight.otf */ = {isa = PBXFileReference; lastKnownFileType = file; path = "Omnes-ExtraLight.otf"; sourceTree = "<group>"; };
+		9095736F26E3F07900FE1BC4 /* Omnes-Regular.otf */ = {isa = PBXFileReference; lastKnownFileType = file; path = "Omnes-Regular.otf"; sourceTree = "<group>"; };
+		9095737026E3F07A00FE1BC4 /* Omnes-Semibold.otf */ = {isa = PBXFileReference; lastKnownFileType = file; path = "Omnes-Semibold.otf"; sourceTree = "<group>"; };
+		9095737126E3F13A00FE1BC4 /* BaseViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = BaseViewController.swift; sourceTree = "<group>"; };
+		9095737426E3F2B100FE1BC4 /* Book.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = Book.swift; sourceTree = "<group>"; };
+		9095737C26E4034B00FE1BC4 /* BaseProtocol.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = BaseProtocol.swift; sourceTree = "<group>"; };
+		9095737F26E4068000FE1BC4 /* Books.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = Books.swift; sourceTree = "<group>"; };
+		9095738126E40A4500FE1BC4 /* BooksRepository.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = BooksRepository.swift; sourceTree = "<group>"; };
+		9095738526E41F3B00FE1BC4 /* BooksRemoteDataSource.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = BooksRemoteDataSource.swift; sourceTree = "<group>"; };
+		9095738726E41F4D00FE1BC4 /* BooksLocalDataSource.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = BooksLocalDataSource.swift; sourceTree = "<group>"; };
+		9095738C26E47F0000FE1BC4 /* BookTableViewCell.xib */ = {isa = PBXFileReference; lastKnownFileType = file.xib; path = BookTableViewCell.xib; sourceTree = "<group>"; };
+		9095738E26E47F6000FE1BC4 /* BookTableViewCell.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = BookTableViewCell.swift; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -115,8 +148,11 @@
 			isa = PBXFrameworksBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				9095739226E48A9C00FE1BC4 /* Kingfisher in Frameworks */,
 				909572FA26E1DAB700FE1BC4 /* RxSwift in Frameworks */,
 				9095733126E1E18000FE1BC4 /* MVVMUtils in Frameworks */,
+				9095737826E3F60800FE1BC4 /* Realm in Frameworks */,
+				9095737A26E3F60800FE1BC4 /* RealmSwift in Frameworks */,
 				909572F126E1D09D00FE1BC4 /* RxCocoa in Frameworks */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
@@ -163,14 +199,14 @@
 		909572AD26E1C82000FE1BC4 /* MVVMCoordinator */ = {
 			isa = PBXGroup;
 			children = (
-				9095733726E32C5B00FE1BC4 /* Resources */,
-				909572F426E1D6F200FE1BC4 /* Services */,
+				9095737326E3F26A00FE1BC4 /* Core */,
 				909572E326E1CB0200FE1BC4 /* Model */,
 				909572E226E1CAF100FE1BC4 /* ViewModel */,
 				909572E126E1CAED00FE1BC4 /* View */,
 				909572AE26E1C82000FE1BC4 /* AppDelegate.swift */,
 				909572B026E1C82000FE1BC4 /* SceneDelegate.swift */,
 				909572B726E1C82200FE1BC4 /* Assets.xcassets */,
+				9095733726E32C5B00FE1BC4 /* Resources */,
 				909572B926E1C82200FE1BC4 /* LaunchScreen.storyboard */,
 				909572BC26E1C82200FE1BC4 /* Info.plist */,
 			);
@@ -198,12 +234,14 @@
 		909572E126E1CAED00FE1BC4 /* View */ = {
 			isa = PBXGroup;
 			children = (
+				9095738B26E47ECE00FE1BC4 /* TableViewCell */,
 				909572B426E1C82000FE1BC4 /* Main.storyboard */,
 				909572ED26E1D04800FE1BC4 /* SignInViewController.swift */,
 				9095734F26E333F500FE1BC4 /* BestSellersViewController.swift */,
 				9095735126E3343F00FE1BC4 /* HistoryViewController.swift */,
 				9095735326E3344D00FE1BC4 /* ScienceViewController.swift */,
 				9095735526E3345900FE1BC4 /* BusinessViewController.swift */,
+				9095737126E3F13A00FE1BC4 /* BaseViewController.swift */,
 			);
 			path = View;
 			sourceTree = "<group>";
@@ -212,10 +250,7 @@
 			isa = PBXGroup;
 			children = (
 				909572EB26E1CD7000FE1BC4 /* SignInViewModel.swift */,
-				9095735726E3357E00FE1BC4 /* BestSellersViewModel.swift */,
-				9095735926E3358A00FE1BC4 /* HistoryViewModel.swift */,
-				9095735B26E3359600FE1BC4 /* ScienceViewModel.swift */,
-				9095735D26E335AC00FE1BC4 /* BusinessViewModel.swift */,
+				9095735726E3357E00FE1BC4 /* BooksViewModel.swift */,
 			);
 			path = ViewModel;
 			sourceTree = "<group>";
@@ -223,6 +258,8 @@
 		909572E326E1CB0200FE1BC4 /* Model */ = {
 			isa = PBXGroup;
 			children = (
+				9095737426E3F2B100FE1BC4 /* Book.swift */,
+				9095737F26E4068000FE1BC4 /* Books.swift */,
 			);
 			path = Model;
 			sourceTree = "<group>";
@@ -230,9 +267,10 @@
 		909572F426E1D6F200FE1BC4 /* Services */ = {
 			isa = PBXGroup;
 			children = (
+				9095737E26E4041600FE1BC4 /* Repository */,
 				9095734926E32D0900FE1BC4 /* SessionService.swift */,
-				9095734B26E3337500FE1BC4 /* BestSellersService.swift */,
 				9095734D26E3339700FE1BC4 /* BooksService.swift */,
+				9095737C26E4034B00FE1BC4 /* BaseProtocol.swift */,
 			);
 			path = Services;
 			sourceTree = "<group>";
@@ -430,16 +468,69 @@
 		9095733826E32CBE00FE1BC4 /* Fonts */ = {
 			isa = PBXGroup;
 			children = (
-				9095733926E32CBE00FE1BC4 /* NotoSans-Regular.ttf */,
-				9095733A26E32CBE00FE1BC4 /* NotoSansMono-SemiBold.ttf */,
-				9095733B26E32CBE00FE1BC4 /* NotoSans-Medium.ttf */,
-				9095733C26E32CBE00FE1BC4 /* NotoSansMono-Regular.ttf */,
-				9095733D26E32CBE00FE1BC4 /* NotoSans-Bold.ttf */,
-				9095733E26E32CBE00FE1BC4 /* NotoSansMono-Medium.ttf */,
-				9095733F26E32CBE00FE1BC4 /* NotoSans-SemiBold.ttf */,
-				9095734026E32CBE00FE1BC4 /* NotoSansMono-Bold.ttf */,
+				9095736026E3F07700FE1BC4 /* Omnes-Black.otf */,
+				9095736A26E3F07900FE1BC4 /* Omnes-BlackItalic.otf */,
+				9095736D26E3F07900FE1BC4 /* Omnes-Bold.otf */,
+				9095736626E3F07800FE1BC4 /* Omnes-BoldItalic.otf */,
+				9095736E26E3F07900FE1BC4 /* Omnes-ExtraLight.otf */,
+				9095735F26E3F07700FE1BC4 /* Omnes-ExtraLightItalic.otf */,
+				9095736B26E3F07900FE1BC4 /* Omnes-Hairline.otf */,
+				9095736126E3F07800FE1BC4 /* Omnes-HairlineItalic.otf */,
+				9095736326E3F07800FE1BC4 /* Omnes-Light.otf */,
+				9095736226E3F07800FE1BC4 /* Omnes-LightItalic.otf */,
+				9095736426E3F07800FE1BC4 /* Omnes-Medium.otf */,
+				9095736C26E3F07900FE1BC4 /* Omnes-MediumItalic.otf */,
+				9095736F26E3F07900FE1BC4 /* Omnes-Regular.otf */,
+				9095736526E3F07800FE1BC4 /* Omnes-RegularItalic.otf */,
+				9095737026E3F07A00FE1BC4 /* Omnes-Semibold.otf */,
+				9095736726E3F07800FE1BC4 /* Omnes-SemiboldItalic.otf */,
+				9095736826E3F07800FE1BC4 /* Omnes-Thin.otf */,
+				9095736926E3F07800FE1BC4 /* Omnes-ThinItalic.otf */,
 			);
 			path = Fonts;
+			sourceTree = "<group>";
+		};
+		9095737326E3F26A00FE1BC4 /* Core */ = {
+			isa = PBXGroup;
+			children = (
+				909572F426E1D6F200FE1BC4 /* Services */,
+			);
+			path = Core;
+			sourceTree = "<group>";
+		};
+		9095737E26E4041600FE1BC4 /* Repository */ = {
+			isa = PBXGroup;
+			children = (
+				9095738426E41F1D00FE1BC4 /* Local */,
+				9095738326E41F1800FE1BC4 /* Remote */,
+				9095738126E40A4500FE1BC4 /* BooksRepository.swift */,
+			);
+			path = Repository;
+			sourceTree = "<group>";
+		};
+		9095738326E41F1800FE1BC4 /* Remote */ = {
+			isa = PBXGroup;
+			children = (
+				9095738526E41F3B00FE1BC4 /* BooksRemoteDataSource.swift */,
+			);
+			path = Remote;
+			sourceTree = "<group>";
+		};
+		9095738426E41F1D00FE1BC4 /* Local */ = {
+			isa = PBXGroup;
+			children = (
+				9095738726E41F4D00FE1BC4 /* BooksLocalDataSource.swift */,
+			);
+			path = Local;
+			sourceTree = "<group>";
+		};
+		9095738B26E47ECE00FE1BC4 /* TableViewCell */ = {
+			isa = PBXGroup;
+			children = (
+				9095738C26E47F0000FE1BC4 /* BookTableViewCell.xib */,
+				9095738E26E47F6000FE1BC4 /* BookTableViewCell.swift */,
+			);
+			path = TableViewCell;
 			sourceTree = "<group>";
 		};
 /* End PBXGroup section */
@@ -462,6 +553,9 @@
 				909572F026E1D09D00FE1BC4 /* RxCocoa */,
 				909572F926E1DAB700FE1BC4 /* RxSwift */,
 				9095733026E1E18000FE1BC4 /* MVVMUtils */,
+				9095737726E3F60800FE1BC4 /* Realm */,
+				9095737926E3F60800FE1BC4 /* RealmSwift */,
+				9095739126E48A9C00FE1BC4 /* Kingfisher */,
 			);
 			productName = MVVMCoordinator;
 			productReference = 909572AB26E1C82000FE1BC4 /* MVVMCoordinator.app */;
@@ -536,6 +630,8 @@
 			mainGroup = 909572A226E1C82000FE1BC4;
 			packageReferences = (
 				909572EF26E1D09D00FE1BC4 /* XCRemoteSwiftPackageReference "RxSwift" */,
+				9095737626E3F60800FE1BC4 /* XCRemoteSwiftPackageReference "realm-cocoa" */,
+				9095739026E48A9C00FE1BC4 /* XCRemoteSwiftPackageReference "Kingfisher" */,
 			);
 			productRefGroup = 909572AC26E1C82000FE1BC4 /* Products */;
 			projectDirPath = "";
@@ -553,17 +649,28 @@
 			isa = PBXResourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
-				9095734526E32CBE00FE1BC4 /* NotoSans-Bold.ttf in Resources */,
-				9095734126E32CBE00FE1BC4 /* NotoSans-Regular.ttf in Resources */,
+				9095739326E48F9800FE1BC4 /* Omnes-Black.otf in Resources */,
+				9095739426E48F9800FE1BC4 /* Omnes-BlackItalic.otf in Resources */,
+				9095739526E48F9800FE1BC4 /* Omnes-Bold.otf in Resources */,
+				9095739626E48F9800FE1BC4 /* Omnes-BoldItalic.otf in Resources */,
+				9095739726E48F9800FE1BC4 /* Omnes-ExtraLight.otf in Resources */,
+				9095739826E48F9800FE1BC4 /* Omnes-ExtraLightItalic.otf in Resources */,
+				9095739926E48F9800FE1BC4 /* Omnes-Hairline.otf in Resources */,
+				9095739A26E48F9800FE1BC4 /* Omnes-HairlineItalic.otf in Resources */,
+				9095739B26E48F9800FE1BC4 /* Omnes-Light.otf in Resources */,
+				9095739C26E48F9800FE1BC4 /* Omnes-LightItalic.otf in Resources */,
+				9095739D26E48F9800FE1BC4 /* Omnes-Medium.otf in Resources */,
+				9095739E26E48F9800FE1BC4 /* Omnes-MediumItalic.otf in Resources */,
+				9095739F26E48F9800FE1BC4 /* Omnes-Regular.otf in Resources */,
+				909573A026E48F9800FE1BC4 /* Omnes-RegularItalic.otf in Resources */,
+				909573A126E48F9800FE1BC4 /* Omnes-Semibold.otf in Resources */,
+				909573A226E48F9800FE1BC4 /* Omnes-SemiboldItalic.otf in Resources */,
+				909573A326E48F9800FE1BC4 /* Omnes-Thin.otf in Resources */,
+				909573A426E48F9800FE1BC4 /* Omnes-ThinItalic.otf in Resources */,
+				9095738D26E47F0000FE1BC4 /* BookTableViewCell.xib in Resources */,
 				909572BB26E1C82200FE1BC4 /* LaunchScreen.storyboard in Resources */,
-				9095734326E32CBE00FE1BC4 /* NotoSans-Medium.ttf in Resources */,
 				909572B826E1C82200FE1BC4 /* Assets.xcassets in Resources */,
-				9095734826E32CBE00FE1BC4 /* NotoSansMono-Bold.ttf in Resources */,
-				9095734626E32CBE00FE1BC4 /* NotoSansMono-Medium.ttf in Resources */,
-				9095734726E32CBE00FE1BC4 /* NotoSans-SemiBold.ttf in Resources */,
 				909572B626E1C82000FE1BC4 /* Main.storyboard in Resources */,
-				9095734426E32CBE00FE1BC4 /* NotoSansMono-Regular.ttf in Resources */,
-				9095734226E32CBE00FE1BC4 /* NotoSansMono-SemiBold.ttf in Resources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -589,20 +696,24 @@
 			buildActionMask = 2147483647;
 			files = (
 				909572EC26E1CD7000FE1BC4 /* SignInViewModel.swift in Sources */,
-				9095735826E3357E00FE1BC4 /* BestSellersViewModel.swift in Sources */,
+				9095735826E3357E00FE1BC4 /* BooksViewModel.swift in Sources */,
 				9095735426E3344D00FE1BC4 /* ScienceViewController.swift in Sources */,
 				9095735026E333F500FE1BC4 /* BestSellersViewController.swift in Sources */,
-				9095735E26E335AC00FE1BC4 /* BusinessViewModel.swift in Sources */,
 				9095734A26E32D0900FE1BC4 /* SessionService.swift in Sources */,
+				9095738826E41F4D00FE1BC4 /* BooksLocalDataSource.swift in Sources */,
+				9095738026E4068000FE1BC4 /* Books.swift in Sources */,
 				909572AF26E1C82000FE1BC4 /* AppDelegate.swift in Sources */,
+				9095738F26E47F6000FE1BC4 /* BookTableViewCell.swift in Sources */,
 				9095734E26E3339700FE1BC4 /* BooksService.swift in Sources */,
 				909572EE26E1D04800FE1BC4 /* SignInViewController.swift in Sources */,
 				9095735226E3343F00FE1BC4 /* HistoryViewController.swift in Sources */,
-				9095734C26E3337600FE1BC4 /* BestSellersService.swift in Sources */,
 				9095735626E3345900FE1BC4 /* BusinessViewController.swift in Sources */,
-				9095735C26E3359600FE1BC4 /* ScienceViewModel.swift in Sources */,
-				9095735A26E3358A00FE1BC4 /* HistoryViewModel.swift in Sources */,
+				9095737226E3F13A00FE1BC4 /* BaseViewController.swift in Sources */,
+				9095738226E40A4500FE1BC4 /* BooksRepository.swift in Sources */,
+				9095738626E41F3B00FE1BC4 /* BooksRemoteDataSource.swift in Sources */,
+				9095737D26E4034B00FE1BC4 /* BaseProtocol.swift in Sources */,
 				909572B126E1C82000FE1BC4 /* SceneDelegate.swift in Sources */,
+				9095737526E3F2B100FE1BC4 /* Book.swift in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -941,6 +1052,22 @@
 				minimumVersion = 6.2.0;
 			};
 		};
+		9095737626E3F60800FE1BC4 /* XCRemoteSwiftPackageReference "realm-cocoa" */ = {
+			isa = XCRemoteSwiftPackageReference;
+			repositoryURL = "https://github.com/realm/realm-cocoa.git";
+			requirement = {
+				kind = upToNextMajorVersion;
+				minimumVersion = 10.0.0;
+			};
+		};
+		9095739026E48A9C00FE1BC4 /* XCRemoteSwiftPackageReference "Kingfisher" */ = {
+			isa = XCRemoteSwiftPackageReference;
+			repositoryURL = "https://github.com/onevcat/Kingfisher.git";
+			requirement = {
+				kind = upToNextMajorVersion;
+				minimumVersion = 6.3.1;
+			};
+		};
 /* End XCRemoteSwiftPackageReference section */
 
 /* Begin XCSwiftPackageProductDependency section */
@@ -957,6 +1084,21 @@
 		9095733026E1E18000FE1BC4 /* MVVMUtils */ = {
 			isa = XCSwiftPackageProductDependency;
 			productName = MVVMUtils;
+		};
+		9095737726E3F60800FE1BC4 /* Realm */ = {
+			isa = XCSwiftPackageProductDependency;
+			package = 9095737626E3F60800FE1BC4 /* XCRemoteSwiftPackageReference "realm-cocoa" */;
+			productName = Realm;
+		};
+		9095737926E3F60800FE1BC4 /* RealmSwift */ = {
+			isa = XCSwiftPackageProductDependency;
+			package = 9095737626E3F60800FE1BC4 /* XCRemoteSwiftPackageReference "realm-cocoa" */;
+			productName = RealmSwift;
+		};
+		9095739126E48A9C00FE1BC4 /* Kingfisher */ = {
+			isa = XCSwiftPackageProductDependency;
+			package = 9095739026E48A9C00FE1BC4 /* XCRemoteSwiftPackageReference "Kingfisher" */;
+			productName = Kingfisher;
 		};
 /* End XCSwiftPackageProductDependency section */
 	};

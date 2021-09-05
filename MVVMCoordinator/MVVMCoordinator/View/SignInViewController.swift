@@ -42,9 +42,9 @@ class SignInViewController: UIViewController {
             }
             .disposed(by: self.disposeBag)
         
-        viewModel.isSignInActive
-            .bind(to: self.signInButton.rx.isEnabled)
-            .disposed(by: self.disposeBag)
+//        viewModel.isSignInActive
+//            .bind(to: self.signInButton.rx.isEnabled)
+//            .disposed(by: self.disposeBag)
         
         viewModel.didFailSignIn
             .subscribe(onNext: { error in
