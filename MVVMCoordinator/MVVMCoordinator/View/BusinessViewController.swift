@@ -6,12 +6,10 @@
 //
 
 import UIKit
-import RxCocoa
-import RxSwift
 
 class BusinessViewController: BaseViewController {
-    
-    
+
+    // MARK: Lifecycle
     override func viewDidLoad() {
         super.viewDidLoad()
         self.setupData(.business)
