@@ -28,14 +28,14 @@ public class BooksRepository: BaseProtocol {
     }
     
     
-    func getAll(_ completion: @escaping callback) {
+    func getAll(_ type: BookType? = .all ,_ completion: @escaping callback) {
         
         do {
             
             // Check if the books exists in realM
             guard try self.localDatasource.exists() == false else {
                 
-                let books = Books(try self.localDatasource.getAll())
+                let books = Books(try self.localDatasource.getAll(type))
                 return completion(.success(books))
             }
             
@@ -46,7 +46,8 @@ public class BooksRepository: BaseProtocol {
                     switch val {
                     case .success(let books):
                         try self.localDatasource.save(books.data)
-                        return completion(.success(books))
+                        let bookFiltered = self.localDatasource.filterByType(type!, books: books.data)
+                        return completion(.success(Books(bookFiltered)))
                     case .failure(let error): return completion(.failure(error))
                     }
                 } catch {
@@ -61,10 +62,6 @@ public class BooksRepository: BaseProtocol {
     }
     
     func get(_ completion: @escaping callback) {
-        
-    }
-    
-    func filterByType(_ type: BookType, completion: @escaping callback) {
         
     }
     

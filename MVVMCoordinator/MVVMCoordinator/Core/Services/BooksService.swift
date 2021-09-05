@@ -7,7 +7,7 @@
 
 import Foundation
 
-class BooksService : BaseProtocol {
+public class BooksService : BaseProtocol {
     
     typealias Item = Books
     typealias Type_ = BookType
@@ -21,17 +21,14 @@ class BooksService : BaseProtocol {
         try self.init(repository: BooksRepository())
     }
     
-    func getAll(_ completion: @escaping callback) {
-        self.repository.getAll(completion)
+    func getAll(_ type: BookType? = .all , _ completion: @escaping callback) {
+        self.repository.getAll(type, completion)
     }
     
     func get(_ completion: @escaping callback) {
         self.repository.get(completion)
     }
     
-    func filterByType(_ type: BookType, completion: @escaping callback) {
-        self.repository.filterByType(type, completion: completion)
-    }
     
     
     

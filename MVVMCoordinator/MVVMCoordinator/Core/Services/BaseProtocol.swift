@@ -15,16 +15,16 @@ protocol BaseProtocol {
     
     typealias callback = (Result<Item,ErrorType>) -> Void
     
-    func getAll(_ completion: @escaping callback)
+    func getAll(_ type: Type_?, _ completion: @escaping callback)
     func get(_ completion: @escaping callback)
-    func filterByType(_ type: Type_, completion: @escaping callback)
 }
 
-public enum BookType {
+public enum BookType: String {
     case bestSeller
-    case history
-    case science
-    case business
+    case history = "History"
+    case science = "Science"
+    case business = "Business"
+    case all 
 }
 
 public enum ErrorType : Error {
@@ -34,4 +34,5 @@ public enum ErrorType : Error {
     case decodingError
     case realmError
     case repositoryError
+    case setupData
 }

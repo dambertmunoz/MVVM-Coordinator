@@ -25,10 +25,7 @@
 		9095735226E3343F00FE1BC4 /* HistoryViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 9095735126E3343F00FE1BC4 /* HistoryViewController.swift */; };
 		9095735426E3344D00FE1BC4 /* ScienceViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 9095735326E3344D00FE1BC4 /* ScienceViewController.swift */; };
 		9095735626E3345900FE1BC4 /* BusinessViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 9095735526E3345900FE1BC4 /* BusinessViewController.swift */; };
-		9095735826E3357E00FE1BC4 /* BestSellersViewModel.swift in Sources */ = {isa = PBXBuildFile; fileRef = 9095735726E3357E00FE1BC4 /* BestSellersViewModel.swift */; };
-		9095735A26E3358A00FE1BC4 /* HistoryViewModel.swift in Sources */ = {isa = PBXBuildFile; fileRef = 9095735926E3358A00FE1BC4 /* HistoryViewModel.swift */; };
-		9095735C26E3359600FE1BC4 /* ScienceViewModel.swift in Sources */ = {isa = PBXBuildFile; fileRef = 9095735B26E3359600FE1BC4 /* ScienceViewModel.swift */; };
-		9095735E26E335AC00FE1BC4 /* BusinessViewModel.swift in Sources */ = {isa = PBXBuildFile; fileRef = 9095735D26E335AC00FE1BC4 /* BusinessViewModel.swift */; };
+		9095735826E3357E00FE1BC4 /* BooksViewModel.swift in Sources */ = {isa = PBXBuildFile; fileRef = 9095735726E3357E00FE1BC4 /* BooksViewModel.swift */; };
 		9095737226E3F13A00FE1BC4 /* BaseViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 9095737126E3F13A00FE1BC4 /* BaseViewController.swift */; };
 		9095737526E3F2B100FE1BC4 /* Book.swift in Sources */ = {isa = PBXBuildFile; fileRef = 9095737426E3F2B100FE1BC4 /* Book.swift */; };
 		9095737826E3F60800FE1BC4 /* Realm in Frameworks */ = {isa = PBXBuildFile; productRef = 9095737726E3F60800FE1BC4 /* Realm */; };
@@ -38,6 +35,27 @@
 		9095738226E40A4500FE1BC4 /* BooksRepository.swift in Sources */ = {isa = PBXBuildFile; fileRef = 9095738126E40A4500FE1BC4 /* BooksRepository.swift */; };
 		9095738626E41F3B00FE1BC4 /* BooksRemoteDataSource.swift in Sources */ = {isa = PBXBuildFile; fileRef = 9095738526E41F3B00FE1BC4 /* BooksRemoteDataSource.swift */; };
 		9095738826E41F4D00FE1BC4 /* BooksLocalDataSource.swift in Sources */ = {isa = PBXBuildFile; fileRef = 9095738726E41F4D00FE1BC4 /* BooksLocalDataSource.swift */; };
+		9095738D26E47F0000FE1BC4 /* BookTableViewCell.xib in Resources */ = {isa = PBXBuildFile; fileRef = 9095738C26E47F0000FE1BC4 /* BookTableViewCell.xib */; };
+		9095738F26E47F6000FE1BC4 /* BookTableViewCell.swift in Sources */ = {isa = PBXBuildFile; fileRef = 9095738E26E47F6000FE1BC4 /* BookTableViewCell.swift */; };
+		9095739226E48A9C00FE1BC4 /* Kingfisher in Frameworks */ = {isa = PBXBuildFile; productRef = 9095739126E48A9C00FE1BC4 /* Kingfisher */; };
+		9095739326E48F9800FE1BC4 /* Omnes-Black.otf in Resources */ = {isa = PBXBuildFile; fileRef = 9095736026E3F07700FE1BC4 /* Omnes-Black.otf */; };
+		9095739426E48F9800FE1BC4 /* Omnes-BlackItalic.otf in Resources */ = {isa = PBXBuildFile; fileRef = 9095736A26E3F07900FE1BC4 /* Omnes-BlackItalic.otf */; };
+		9095739526E48F9800FE1BC4 /* Omnes-Bold.otf in Resources */ = {isa = PBXBuildFile; fileRef = 9095736D26E3F07900FE1BC4 /* Omnes-Bold.otf */; };
+		9095739626E48F9800FE1BC4 /* Omnes-BoldItalic.otf in Resources */ = {isa = PBXBuildFile; fileRef = 9095736626E3F07800FE1BC4 /* Omnes-BoldItalic.otf */; };
+		9095739726E48F9800FE1BC4 /* Omnes-ExtraLight.otf in Resources */ = {isa = PBXBuildFile; fileRef = 9095736E26E3F07900FE1BC4 /* Omnes-ExtraLight.otf */; };
+		9095739826E48F9800FE1BC4 /* Omnes-ExtraLightItalic.otf in Resources */ = {isa = PBXBuildFile; fileRef = 9095735F26E3F07700FE1BC4 /* Omnes-ExtraLightItalic.otf */; };
+		9095739926E48F9800FE1BC4 /* Omnes-Hairline.otf in Resources */ = {isa = PBXBuildFile; fileRef = 9095736B26E3F07900FE1BC4 /* Omnes-Hairline.otf */; };
+		9095739A26E48F9800FE1BC4 /* Omnes-HairlineItalic.otf in Resources */ = {isa = PBXBuildFile; fileRef = 9095736126E3F07800FE1BC4 /* Omnes-HairlineItalic.otf */; };
+		9095739B26E48F9800FE1BC4 /* Omnes-Light.otf in Resources */ = {isa = PBXBuildFile; fileRef = 9095736326E3F07800FE1BC4 /* Omnes-Light.otf */; };
+		9095739C26E48F9800FE1BC4 /* Omnes-LightItalic.otf in Resources */ = {isa = PBXBuildFile; fileRef = 9095736226E3F07800FE1BC4 /* Omnes-LightItalic.otf */; };
+		9095739D26E48F9800FE1BC4 /* Omnes-Medium.otf in Resources */ = {isa = PBXBuildFile; fileRef = 9095736426E3F07800FE1BC4 /* Omnes-Medium.otf */; };
+		9095739E26E48F9800FE1BC4 /* Omnes-MediumItalic.otf in Resources */ = {isa = PBXBuildFile; fileRef = 9095736C26E3F07900FE1BC4 /* Omnes-MediumItalic.otf */; };
+		9095739F26E48F9800FE1BC4 /* Omnes-Regular.otf in Resources */ = {isa = PBXBuildFile; fileRef = 9095736F26E3F07900FE1BC4 /* Omnes-Regular.otf */; };
+		909573A026E48F9800FE1BC4 /* Omnes-RegularItalic.otf in Resources */ = {isa = PBXBuildFile; fileRef = 9095736526E3F07800FE1BC4 /* Omnes-RegularItalic.otf */; };
+		909573A126E48F9800FE1BC4 /* Omnes-Semibold.otf in Resources */ = {isa = PBXBuildFile; fileRef = 9095737026E3F07A00FE1BC4 /* Omnes-Semibold.otf */; };
+		909573A226E48F9800FE1BC4 /* Omnes-SemiboldItalic.otf in Resources */ = {isa = PBXBuildFile; fileRef = 9095736726E3F07800FE1BC4 /* Omnes-SemiboldItalic.otf */; };
+		909573A326E48F9800FE1BC4 /* Omnes-Thin.otf in Resources */ = {isa = PBXBuildFile; fileRef = 9095736826E3F07800FE1BC4 /* Omnes-Thin.otf */; };
+		909573A426E48F9800FE1BC4 /* Omnes-ThinItalic.otf in Resources */ = {isa = PBXBuildFile; fileRef = 9095736926E3F07800FE1BC4 /* Omnes-ThinItalic.otf */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXContainerItemProxy section */
@@ -95,10 +113,7 @@
 		9095735126E3343F00FE1BC4 /* HistoryViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = HistoryViewController.swift; sourceTree = "<group>"; };
 		9095735326E3344D00FE1BC4 /* ScienceViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ScienceViewController.swift; sourceTree = "<group>"; };
 		9095735526E3345900FE1BC4 /* BusinessViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = BusinessViewController.swift; sourceTree = "<group>"; };
-		9095735726E3357E00FE1BC4 /* BestSellersViewModel.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = BestSellersViewModel.swift; sourceTree = "<group>"; };
-		9095735926E3358A00FE1BC4 /* HistoryViewModel.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = HistoryViewModel.swift; sourceTree = "<group>"; };
-		9095735B26E3359600FE1BC4 /* ScienceViewModel.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ScienceViewModel.swift; sourceTree = "<group>"; };
-		9095735D26E335AC00FE1BC4 /* BusinessViewModel.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = BusinessViewModel.swift; sourceTree = "<group>"; };
+		9095735726E3357E00FE1BC4 /* BooksViewModel.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = BooksViewModel.swift; sourceTree = "<group>"; };
 		9095735F26E3F07700FE1BC4 /* Omnes-ExtraLightItalic.otf */ = {isa = PBXFileReference; lastKnownFileType = file; path = "Omnes-ExtraLightItalic.otf"; sourceTree = "<group>"; };
 		9095736026E3F07700FE1BC4 /* Omnes-Black.otf */ = {isa = PBXFileReference; lastKnownFileType = file; path = "Omnes-Black.otf"; sourceTree = "<group>"; };
 		9095736126E3F07800FE1BC4 /* Omnes-HairlineItalic.otf */ = {isa = PBXFileReference; lastKnownFileType = file; path = "Omnes-HairlineItalic.otf"; sourceTree = "<group>"; };
@@ -124,6 +139,8 @@
 		9095738126E40A4500FE1BC4 /* BooksRepository.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = BooksRepository.swift; sourceTree = "<group>"; };
 		9095738526E41F3B00FE1BC4 /* BooksRemoteDataSource.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = BooksRemoteDataSource.swift; sourceTree = "<group>"; };
 		9095738726E41F4D00FE1BC4 /* BooksLocalDataSource.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = BooksLocalDataSource.swift; sourceTree = "<group>"; };
+		9095738C26E47F0000FE1BC4 /* BookTableViewCell.xib */ = {isa = PBXFileReference; lastKnownFileType = file.xib; path = BookTableViewCell.xib; sourceTree = "<group>"; };
+		9095738E26E47F6000FE1BC4 /* BookTableViewCell.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = BookTableViewCell.swift; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -131,6 +148,7 @@
 			isa = PBXFrameworksBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				9095739226E48A9C00FE1BC4 /* Kingfisher in Frameworks */,
 				909572FA26E1DAB700FE1BC4 /* RxSwift in Frameworks */,
 				9095733126E1E18000FE1BC4 /* MVVMUtils in Frameworks */,
 				9095737826E3F60800FE1BC4 /* Realm in Frameworks */,
@@ -216,6 +234,7 @@
 		909572E126E1CAED00FE1BC4 /* View */ = {
 			isa = PBXGroup;
 			children = (
+				9095738B26E47ECE00FE1BC4 /* TableViewCell */,
 				909572B426E1C82000FE1BC4 /* Main.storyboard */,
 				909572ED26E1D04800FE1BC4 /* SignInViewController.swift */,
 				9095734F26E333F500FE1BC4 /* BestSellersViewController.swift */,
@@ -231,10 +250,7 @@
 			isa = PBXGroup;
 			children = (
 				909572EB26E1CD7000FE1BC4 /* SignInViewModel.swift */,
-				9095735726E3357E00FE1BC4 /* BestSellersViewModel.swift */,
-				9095735926E3358A00FE1BC4 /* HistoryViewModel.swift */,
-				9095735B26E3359600FE1BC4 /* ScienceViewModel.swift */,
-				9095735D26E335AC00FE1BC4 /* BusinessViewModel.swift */,
+				9095735726E3357E00FE1BC4 /* BooksViewModel.swift */,
 			);
 			path = ViewModel;
 			sourceTree = "<group>";
@@ -508,6 +524,15 @@
 			path = Local;
 			sourceTree = "<group>";
 		};
+		9095738B26E47ECE00FE1BC4 /* TableViewCell */ = {
+			isa = PBXGroup;
+			children = (
+				9095738C26E47F0000FE1BC4 /* BookTableViewCell.xib */,
+				9095738E26E47F6000FE1BC4 /* BookTableViewCell.swift */,
+			);
+			path = TableViewCell;
+			sourceTree = "<group>";
+		};
 /* End PBXGroup section */
 
 /* Begin PBXNativeTarget section */
@@ -530,6 +555,7 @@
 				9095733026E1E18000FE1BC4 /* MVVMUtils */,
 				9095737726E3F60800FE1BC4 /* Realm */,
 				9095737926E3F60800FE1BC4 /* RealmSwift */,
+				9095739126E48A9C00FE1BC4 /* Kingfisher */,
 			);
 			productName = MVVMCoordinator;
 			productReference = 909572AB26E1C82000FE1BC4 /* MVVMCoordinator.app */;
@@ -605,6 +631,7 @@
 			packageReferences = (
 				909572EF26E1D09D00FE1BC4 /* XCRemoteSwiftPackageReference "RxSwift" */,
 				9095737626E3F60800FE1BC4 /* XCRemoteSwiftPackageReference "realm-cocoa" */,
+				9095739026E48A9C00FE1BC4 /* XCRemoteSwiftPackageReference "Kingfisher" */,
 			);
 			productRefGroup = 909572AC26E1C82000FE1BC4 /* Products */;
 			projectDirPath = "";
@@ -622,6 +649,25 @@
 			isa = PBXResourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				9095739326E48F9800FE1BC4 /* Omnes-Black.otf in Resources */,
+				9095739426E48F9800FE1BC4 /* Omnes-BlackItalic.otf in Resources */,
+				9095739526E48F9800FE1BC4 /* Omnes-Bold.otf in Resources */,
+				9095739626E48F9800FE1BC4 /* Omnes-BoldItalic.otf in Resources */,
+				9095739726E48F9800FE1BC4 /* Omnes-ExtraLight.otf in Resources */,
+				9095739826E48F9800FE1BC4 /* Omnes-ExtraLightItalic.otf in Resources */,
+				9095739926E48F9800FE1BC4 /* Omnes-Hairline.otf in Resources */,
+				9095739A26E48F9800FE1BC4 /* Omnes-HairlineItalic.otf in Resources */,
+				9095739B26E48F9800FE1BC4 /* Omnes-Light.otf in Resources */,
+				9095739C26E48F9800FE1BC4 /* Omnes-LightItalic.otf in Resources */,
+				9095739D26E48F9800FE1BC4 /* Omnes-Medium.otf in Resources */,
+				9095739E26E48F9800FE1BC4 /* Omnes-MediumItalic.otf in Resources */,
+				9095739F26E48F9800FE1BC4 /* Omnes-Regular.otf in Resources */,
+				909573A026E48F9800FE1BC4 /* Omnes-RegularItalic.otf in Resources */,
+				909573A126E48F9800FE1BC4 /* Omnes-Semibold.otf in Resources */,
+				909573A226E48F9800FE1BC4 /* Omnes-SemiboldItalic.otf in Resources */,
+				909573A326E48F9800FE1BC4 /* Omnes-Thin.otf in Resources */,
+				909573A426E48F9800FE1BC4 /* Omnes-ThinItalic.otf in Resources */,
+				9095738D26E47F0000FE1BC4 /* BookTableViewCell.xib in Resources */,
 				909572BB26E1C82200FE1BC4 /* LaunchScreen.storyboard in Resources */,
 				909572B826E1C82200FE1BC4 /* Assets.xcassets in Resources */,
 				909572B626E1C82000FE1BC4 /* Main.storyboard in Resources */,
@@ -650,23 +696,21 @@
 			buildActionMask = 2147483647;
 			files = (
 				909572EC26E1CD7000FE1BC4 /* SignInViewModel.swift in Sources */,
-				9095735826E3357E00FE1BC4 /* BestSellersViewModel.swift in Sources */,
+				9095735826E3357E00FE1BC4 /* BooksViewModel.swift in Sources */,
 				9095735426E3344D00FE1BC4 /* ScienceViewController.swift in Sources */,
 				9095735026E333F500FE1BC4 /* BestSellersViewController.swift in Sources */,
-				9095735E26E335AC00FE1BC4 /* BusinessViewModel.swift in Sources */,
 				9095734A26E32D0900FE1BC4 /* SessionService.swift in Sources */,
 				9095738826E41F4D00FE1BC4 /* BooksLocalDataSource.swift in Sources */,
 				9095738026E4068000FE1BC4 /* Books.swift in Sources */,
 				909572AF26E1C82000FE1BC4 /* AppDelegate.swift in Sources */,
+				9095738F26E47F6000FE1BC4 /* BookTableViewCell.swift in Sources */,
 				9095734E26E3339700FE1BC4 /* BooksService.swift in Sources */,
 				909572EE26E1D04800FE1BC4 /* SignInViewController.swift in Sources */,
 				9095735226E3343F00FE1BC4 /* HistoryViewController.swift in Sources */,
 				9095735626E3345900FE1BC4 /* BusinessViewController.swift in Sources */,
-				9095735C26E3359600FE1BC4 /* ScienceViewModel.swift in Sources */,
 				9095737226E3F13A00FE1BC4 /* BaseViewController.swift in Sources */,
 				9095738226E40A4500FE1BC4 /* BooksRepository.swift in Sources */,
 				9095738626E41F3B00FE1BC4 /* BooksRemoteDataSource.swift in Sources */,
-				9095735A26E3358A00FE1BC4 /* HistoryViewModel.swift in Sources */,
 				9095737D26E4034B00FE1BC4 /* BaseProtocol.swift in Sources */,
 				909572B126E1C82000FE1BC4 /* SceneDelegate.swift in Sources */,
 				9095737526E3F2B100FE1BC4 /* Book.swift in Sources */,
@@ -1016,6 +1060,14 @@
 				minimumVersion = 10.0.0;
 			};
 		};
+		9095739026E48A9C00FE1BC4 /* XCRemoteSwiftPackageReference "Kingfisher" */ = {
+			isa = XCRemoteSwiftPackageReference;
+			repositoryURL = "https://github.com/onevcat/Kingfisher.git";
+			requirement = {
+				kind = upToNextMajorVersion;
+				minimumVersion = 6.3.1;
+			};
+		};
 /* End XCRemoteSwiftPackageReference section */
 
 /* Begin XCSwiftPackageProductDependency section */
@@ -1042,6 +1094,11 @@
 			isa = XCSwiftPackageProductDependency;
 			package = 9095737626E3F60800FE1BC4 /* XCRemoteSwiftPackageReference "realm-cocoa" */;
 			productName = RealmSwift;
+		};
+		9095739126E48A9C00FE1BC4 /* Kingfisher */ = {
+			isa = XCSwiftPackageProductDependency;
+			package = 9095739026E48A9C00FE1BC4 /* XCRemoteSwiftPackageReference "Kingfisher" */;
+			productName = Kingfisher;
 		};
 /* End XCSwiftPackageProductDependency section */
 	};
