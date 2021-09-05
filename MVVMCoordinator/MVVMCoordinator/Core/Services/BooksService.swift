@@ -7,29 +7,28 @@
 
 import Foundation
 
-public class BooksService : BaseProtocol {
-    
+public class BooksService: BaseProtocol {
+
     typealias Item = Books
-    typealias Type_ = BookType
-    
+    typealias TypeS = BookType
+
+    // MARK: Properties
     let repository: BooksRepository
-    
+
     public init(repository: BooksRepository) {
         self.repository = repository
     }
-    convenience init() throws {
-        try self.init(repository: BooksRepository())
+    convenience init() {
+        self.init(repository: BooksRepository())
     }
-    
-    func getAll(_ type: BookType? = .all , _ completion: @escaping callback) {
+
+    // MARK: Methods
+    func getAll(_ type: BookType? = .all, _ completion: @escaping Callback) {
         self.repository.getAll(type, completion)
     }
-    
-    func get(_ completion: @escaping callback) {
+
+    func get(_ completion: @escaping Callback) {
         self.repository.get(completion)
     }
-    
-    
-    
-    
+
 }

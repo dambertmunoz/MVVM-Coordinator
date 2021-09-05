@@ -6,11 +6,10 @@
 //
 
 import UIKit
-import RxCocoa
-import RxSwift
 
 class HistoryViewController: BaseViewController {
-    
+
+    // MARK: Lifecycle
     override func viewDidLoad() {
         super.viewDidLoad()
         self.setupData(.history)

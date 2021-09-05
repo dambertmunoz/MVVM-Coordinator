@@ -7,27 +7,26 @@
 
 import Foundation
 
-
-
 protocol BaseProtocol {
     associatedtype Item
-    associatedtype Type_
-    
-    typealias callback = (Result<Item,ErrorType>) -> Void
-    
-    func getAll(_ type: Type_?, _ completion: @escaping callback)
-    func get(_ completion: @escaping callback)
+    associatedtype TypeS
+
+    typealias Callback = (Result<Item, ErrorType>) -> Void
+
+    func getAll(_ type: TypeS?, _ completion: @escaping Callback)
+    func get(_ completion: @escaping Callback)
 }
 
+// MARK: Helpful Enums
 public enum BookType: String {
     case bestSeller
     case history = "History"
     case science = "Science"
     case business = "Business"
-    case all 
+    case all
 }
 
-public enum ErrorType : Error {
+public enum ErrorType: Error {
     case badUrl
     case timeout
     case notfound
