@@ -8,15 +8,12 @@ import UIKit
 import RxCocoa
 import RxSwift
 
-class ScienceViewController: UIViewController {
+class ScienceViewController: BaseViewController {
     
-    
-    private let disposeBag = DisposeBag()
-   // var viewModel: SignInViewModel? = SignInViewModel(authentication: SessionService())
     
     override func viewDidLoad() {
         super.viewDidLoad()
-       // self.setUpBindings()
+        self.setupData(.science)
     }
 
 }
