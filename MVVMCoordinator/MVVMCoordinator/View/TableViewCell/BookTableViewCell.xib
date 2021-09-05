@@ -1,0 +1,101 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<document type="com.apple.InterfaceBuilder3.CocoaTouch.XIB" version="3.0" toolsVersion="18122" targetRuntime="iOS.CocoaTouch" propertyAccessControl="none" useAutolayout="YES" useTraitCollections="YES" useSafeAreas="YES" colorMatched="YES">
+    <device id="retina6_1" orientation="portrait" appearance="light"/>
+    <dependencies>
+        <plugIn identifier="com.apple.InterfaceBuilder.IBCocoaTouchPlugin" version="18093"/>
+        <capability name="documents saved in the Xcode 8 format" minToolsVersion="8.0"/>
+    </dependencies>
+    <customFonts key="customFonts">
+        <array key="Omnes-Bold.otf">
+            <string>Omnes-Bold</string>
+        </array>
+        <array key="Omnes-Medium.otf">
+            <string>Omnes-Medium</string>
+        </array>
+        <array key="Omnes-Regular.otf">
+            <string>Omnes-Regular</string>
+        </array>
+        <array key="Omnes-Semibold.otf">
+            <string>Omnes-Semibold</string>
+        </array>
+    </customFonts>
+    <objects>
+        <placeholder placeholderIdentifier="IBFilesOwner" id="-1" userLabel="File's Owner"/>
+        <placeholder placeholderIdentifier="IBFirstResponder" id="-2" customClass="UIResponder"/>
+        <tableViewCell clipsSubviews="YES" contentMode="scaleToFill" restorationIdentifier="BookTableViewCell" preservesSuperviewLayoutMargins="YES" selectionStyle="default" indentationWidth="10" reuseIdentifier="BookTableViewCell" rowHeight="125" id="eWB-pD-BkY" customClass="BookTableViewCell" customModule="MVVMCoordinator" customModuleProvider="target">
+            <rect key="frame" x="0.0" y="0.0" width="414" height="125"/>
+            <autoresizingMask key="autoresizingMask"/>
+            <tableViewCellContentView key="contentView" opaque="NO" clipsSubviews="YES" multipleTouchEnabled="YES" contentMode="center" preservesSuperviewLayoutMargins="YES" insetsLayoutMarginsFromSafeArea="NO" tableViewCell="eWB-pD-BkY" id="hyS-fc-ZTj">
+                <rect key="frame" x="0.0" y="0.0" width="414" height="125"/>
+                <autoresizingMask key="autoresizingMask"/>
+                <subviews>
+                    <imageView clipsSubviews="YES" userInteractionEnabled="NO" contentMode="scaleAspectFit" horizontalHuggingPriority="251" verticalHuggingPriority="251" translatesAutoresizingMaskIntoConstraints="NO" id="gnN-su-6gN">
+                        <rect key="frame" x="0.0" y="5" width="104" height="114"/>
+                        <constraints>
+                            <constraint firstAttribute="width" constant="104" id="DXH-R1-Jcj"/>
+                            <constraint firstAttribute="height" constant="114" id="QLv-ME-QFn"/>
+                        </constraints>
+                    </imageView>
+                    <label opaque="NO" userInteractionEnabled="NO" contentMode="left" horizontalHuggingPriority="251" verticalHuggingPriority="251" text="Title" textAlignment="natural" lineBreakMode="tailTruncation" baselineAdjustment="alignBaselines" adjustsFontSizeToFit="NO" translatesAutoresizingMaskIntoConstraints="NO" id="Iwb-rg-Ggh">
+                        <rect key="frame" x="109" y="6" width="299" height="21"/>
+                        <constraints>
+                            <constraint firstAttribute="width" relation="lessThanOrEqual" priority="750" constant="173" id="Vcr-sR-SYl"/>
+                            <constraint firstAttribute="height" constant="21" id="dhb-AT-4ji"/>
+                        </constraints>
+                        <fontDescription key="fontDescription" name="Omnes-Bold" family="Omnes" pointSize="16"/>
+                        <nil key="highlightedColor"/>
+                    </label>
+                    <label opaque="NO" userInteractionEnabled="NO" contentMode="left" horizontalHuggingPriority="251" verticalHuggingPriority="251" text="Description" textAlignment="natural" lineBreakMode="tailTruncation" numberOfLines="0" baselineAdjustment="alignBaselines" adjustsFontSizeToFit="NO" translatesAutoresizingMaskIntoConstraints="NO" id="biZ-oG-dLr">
+                        <rect key="frame" x="112" y="58" width="290" height="59"/>
+                        <fontDescription key="fontDescription" name="Omnes-Medium" family="Omnes" pointSize="13"/>
+                        <nil key="highlightedColor"/>
+                    </label>
+                    <label opaque="NO" userInteractionEnabled="NO" contentMode="left" horizontalHuggingPriority="251" verticalHuggingPriority="251" text="Author" textAlignment="right" lineBreakMode="tailTruncation" baselineAdjustment="alignBaselines" adjustsFontSizeToFit="NO" translatesAutoresizingMaskIntoConstraints="NO" id="VtR-Pb-6xN">
+                        <rect key="frame" x="223" y="29" width="181" height="21"/>
+                        <constraints>
+                            <constraint firstAttribute="width" constant="181" id="N0r-ZH-XFH"/>
+                            <constraint firstAttribute="height" constant="21" id="URa-Lp-GQR"/>
+                        </constraints>
+                        <fontDescription key="fontDescription" name="Omnes-Semibold" family="Omnes" pointSize="14"/>
+                        <nil key="highlightedColor"/>
+                    </label>
+                    <label opaque="NO" userInteractionEnabled="NO" contentMode="left" horizontalHuggingPriority="251" verticalHuggingPriority="251" text="isbn" textAlignment="natural" lineBreakMode="tailTruncation" baselineAdjustment="alignBaselines" adjustsFontSizeToFit="NO" translatesAutoresizingMaskIntoConstraints="NO" id="43X-Ee-b0Q">
+                        <rect key="frame" x="112" y="31" width="103" height="21"/>
+                        <constraints>
+                            <constraint firstAttribute="width" priority="750" constant="113" id="XxB-gu-IF8"/>
+                            <constraint firstAttribute="height" constant="21" id="zos-ZP-XZ8"/>
+                        </constraints>
+                        <fontDescription key="fontDescription" name="Omnes-Regular" family="Omnes" pointSize="10"/>
+                        <color key="textColor" white="0.33333333333333331" alpha="1" colorSpace="custom" customColorSpace="genericGamma22GrayColorSpace"/>
+                        <nil key="highlightedColor"/>
+                    </label>
+                </subviews>
+                <constraints>
+                    <constraint firstItem="43X-Ee-b0Q" firstAttribute="top" secondItem="Iwb-rg-Ggh" secondAttribute="bottom" constant="4" id="27z-pn-Gdx"/>
+                    <constraint firstAttribute="trailing" secondItem="biZ-oG-dLr" secondAttribute="trailing" constant="12" id="4fE-Tc-FNK"/>
+                    <constraint firstAttribute="trailing" secondItem="Iwb-rg-Ggh" secondAttribute="trailing" constant="6" id="704-eJ-vZ3"/>
+                    <constraint firstItem="VtR-Pb-6xN" firstAttribute="top" secondItem="Iwb-rg-Ggh" secondAttribute="bottom" constant="2" id="7QO-9k-0t0"/>
+                    <constraint firstAttribute="trailing" secondItem="VtR-Pb-6xN" secondAttribute="trailing" constant="10" id="BuH-57-Ifs"/>
+                    <constraint firstAttribute="bottom" secondItem="gnN-su-6gN" secondAttribute="bottom" constant="6" id="Qhb-4J-i52"/>
+                    <constraint firstItem="Iwb-rg-Ggh" firstAttribute="top" secondItem="hyS-fc-ZTj" secondAttribute="top" constant="6" id="V1C-fs-PhJ"/>
+                    <constraint firstAttribute="bottom" secondItem="biZ-oG-dLr" secondAttribute="bottom" constant="8" id="W2q-xd-9Ie"/>
+                    <constraint firstItem="gnN-su-6gN" firstAttribute="leading" secondItem="hyS-fc-ZTj" secondAttribute="leading" id="reT-xa-qK9"/>
+                    <constraint firstItem="VtR-Pb-6xN" firstAttribute="leading" secondItem="43X-Ee-b0Q" secondAttribute="trailing" constant="8" symbolic="YES" id="rvh-9s-9Bh"/>
+                    <constraint firstItem="gnN-su-6gN" firstAttribute="top" secondItem="hyS-fc-ZTj" secondAttribute="top" constant="5" id="tH1-AP-Xa6"/>
+                    <constraint firstItem="biZ-oG-dLr" firstAttribute="leading" secondItem="gnN-su-6gN" secondAttribute="trailing" constant="8" symbolic="YES" id="tlc-EM-DVB"/>
+                    <constraint firstItem="Iwb-rg-Ggh" firstAttribute="leading" secondItem="gnN-su-6gN" secondAttribute="trailing" constant="5" id="ttv-xI-zvF"/>
+                    <constraint firstItem="43X-Ee-b0Q" firstAttribute="leading" secondItem="gnN-su-6gN" secondAttribute="trailing" constant="8" symbolic="YES" id="vzZ-J5-NKp"/>
+                    <constraint firstItem="biZ-oG-dLr" firstAttribute="top" secondItem="43X-Ee-b0Q" secondAttribute="bottom" constant="6" id="zG9-rD-dP8"/>
+                </constraints>
+            </tableViewCellContentView>
+            <connections>
+                <outlet property="authorLabel" destination="VtR-Pb-6xN" id="mVx-eb-oaw"/>
+                <outlet property="bookImage" destination="gnN-su-6gN" id="CsD-eT-OTE"/>
+                <outlet property="descriptionLabel" destination="biZ-oG-dLr" id="70X-KJ-iCi"/>
+                <outlet property="isbnLabel" destination="43X-Ee-b0Q" id="312-nP-hpO"/>
+                <outlet property="titleLabel" destination="Iwb-rg-Ggh" id="N2e-pm-qxn"/>
+            </connections>
+            <point key="canvasLocation" x="-17.39130434782609" y="-245.42410714285714"/>
+        </tableViewCell>
+    </objects>
+</document>

@@ -15,7 +15,9 @@ public class Books: Decodable, Error {
         case results
         case books
     }
-    
+    public init() {
+        
+    }
     public init(_ data: [Book]) {
         self.data = data
     }
