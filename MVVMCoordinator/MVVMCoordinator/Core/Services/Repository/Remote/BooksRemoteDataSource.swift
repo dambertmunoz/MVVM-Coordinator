@@ -7,13 +7,25 @@
 
 import Foundation
 
-public class BooksRemoteDataSource {
-    
+protocol BooksRemoteDataSourceProtocol {
+
+    func getAll(_ completion: @escaping (Result<Books, ErrorType>) -> Void)
+
+}
+
+public class BooksRemoteDataSource: BooksRemoteDataSourceProtocol {
+
+    // MARK: Lifecycle
+    public init() {
+
+    }
+
+    // MARK: Methods
     public func getAll(_ completion: @escaping (Result<Books, ErrorType>) -> Void) {
         let url = URL(string: "https://raw.githubusercontent.com/ejgteja/files/main/books.json")!
-        
+
         let request = URLRequest(url: url)
-        let task = URLSession.shared.dataTask(with: request as URLRequest, completionHandler: { data, response, error in
+        let task = URLSession.shared.dataTask(with: request as URLRequest, completionHandler: { data, _, error in
             guard error == nil else {
                 return
             }
@@ -21,7 +33,7 @@ public class BooksRemoteDataSource {
                 return
             }
             do {
-                
+
                 let decoder = JSONDecoder()
                 let books = try decoder.decode(Books.self, from: data)
                 completion(.success(books))
@@ -33,5 +45,5 @@ public class BooksRemoteDataSource {
         })
         task.resume()
     }
-    
+
 }

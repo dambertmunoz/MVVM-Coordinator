@@ -10,13 +10,13 @@ import UIKit
 import Kingfisher
 
 public class BookTableViewCell: UITableViewCell {
-    
+
     @IBOutlet weak var bookImage: UIImageView!
     @IBOutlet weak var titleLabel: UILabel!
     @IBOutlet weak var descriptionLabel: UILabel!
     @IBOutlet weak var isbnLabel: UILabel!
     @IBOutlet weak var authorLabel: UILabel!
-    
+
     override init(style: UITableViewCell.CellStyle, reuseIdentifier: String?) {
         super.init(style: style, reuseIdentifier: reuseIdentifier)
     }
@@ -24,18 +24,17 @@ public class BookTableViewCell: UITableViewCell {
     required init?(coder aDecoder: NSCoder) {
         super.init(coder: aDecoder)
     }
-    
+
     func configure(book: Book) {
         self.titleLabel.text = book.title
         self.descriptionLabel.text = book.desc
         self.isbnLabel.text = book.isbn
         self.authorLabel.text = book.author
-        
+
         guard let imageurl = book.img else { return }
         let url = URL(string: imageurl)
         self.bookImage?.kf.setImage(with: url)
-        
+
     }
-    
-    
+
 }
