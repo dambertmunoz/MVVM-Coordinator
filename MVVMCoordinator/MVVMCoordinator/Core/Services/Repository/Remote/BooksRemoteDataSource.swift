@@ -22,14 +22,19 @@ public class BooksRemoteDataSource: BooksRemoteDataSourceProtocol {
 
     // MARK: Methods
     public func getAll(_ completion: @escaping (Result<Books, ErrorType>) -> Void) {
-        let url = URL(string: "https://raw.githubusercontent.com/ejgteja/files/main/books.json")!
+        guard let url = URL(string: "https://raw.githubusercontent.com/ejgteja/files/main/books.json") else {
+            completion(.failure(.badUrl))
+            return
+        }
 
         let request = URLRequest(url: url)
         let task = URLSession.shared.dataTask(with: request as URLRequest, completionHandler: { data, _, error in
             guard error == nil else {
+                completion(.failure(.networkError))
                 return
             }
             guard let data = data else {
+                completion(.failure(.emptyResponse))
                 return
             }
             do {
@@ -39,7 +44,6 @@ public class BooksRemoteDataSource: BooksRemoteDataSourceProtocol {
                 completion(.success(books))
 
             } catch {
-                print(error)
                 completion(.failure(.decodingError))
             }
         })

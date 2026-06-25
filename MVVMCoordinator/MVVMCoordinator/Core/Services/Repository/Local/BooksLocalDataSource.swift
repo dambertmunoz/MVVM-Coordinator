@@ -13,7 +13,7 @@ protocol BooksLocalDataSourceProtocol {
 
     func exists() throws ->  Bool
     func save(_ books: [Book]) throws
-    func getAll(_ type: BookType? ) throws -> [Book]
+    func getAll(_ type: BookType ) throws -> [Book]
     func filterByType(_ type: BookType, books: [Book]) -> [Book]
     func findById(_ isbn: String) throws -> [Book]
 
@@ -40,11 +40,11 @@ public class BooksLocalDataSource: BooksLocalDataSourceProtocol {
         }
     }
 
-    public func getAll(_ type: BookType? = .all) throws -> [Book] {
+    public func getAll(_ type: BookType = .all) throws -> [Book] {
 
         let realm: Realm = try Realm()
         let books = Array(realm.objects(Book.self))
-        return self.filterByType(type!, books: books)
+        return self.filterByType(type, books: books)
     }
 
     public func filterByType(_ type: BookType, books: [Book]) -> [Book] {

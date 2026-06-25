@@ -25,7 +25,5 @@ public class Books: Decodable, Error {
         let values = try decoder.container(keyedBy: CodingKeys.self)
         let res = try values.nestedContainer(keyedBy: CodingKeys.self, forKey: .results)
         self.data = try res.decode([Book].self, forKey: .books)
-
-        print(self.data)
     }
 }

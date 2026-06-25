@@ -28,6 +28,8 @@ public enum BookType: String {
 
 public enum ErrorType: Error {
     case badUrl
+    case networkError
+    case emptyResponse
     case timeout
     case notfound
     case decodingError
