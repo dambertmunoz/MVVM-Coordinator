@@ -87,3 +87,9 @@ For a modern production codebase, the next improvements would be:
 ### Home
 
 ![Home screen](https://user-images.githubusercontent.com/66708463/132137002-76202b03-5ed9-4487-80bd-bf3b07223139.png)
+
+## Author
+
+Dambert Muñoz
+
+Email: [dmsantillana2705@gmail.com](mailto:dmsantillana2705@gmail.com)
